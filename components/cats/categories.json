@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_cats_categories",
+  "info": {
+    "name": "categories",
+    "icon": "dolly"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

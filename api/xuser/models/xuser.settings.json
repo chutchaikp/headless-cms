@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "xusers",
+  "info": {
+    "name": "xuser",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true,
+      "minLength": 3,
+      "unique": true
+    },
+    "password": {
+      "type": "password"
+    },
+    "email": {
+      "type": "email"
+    }
+  }
+}
