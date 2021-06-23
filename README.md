@@ -18,3 +18,10 @@ $ npm run strapi install graphql
 ```s
 $ strapi install documentation
 ```
+
+- Deploy to Heroku [more detail](https://devcenter.heroku.com/articles/deploying-nodejs)
+```b
+$ git add .
+$ git commit -m "Init commit"
+$ git push heroku master
+```
